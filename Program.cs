@@ -1,16 +1,19 @@
 ﻿using ExemploFundamentos.Models;
 
-string presentation = "Oláaa, tudo beimmm?";
-int quantity = 1;
-double size = 1.60;
-decimal price = 1.75M;
-bool trueOrFalse = true;
+DateTime dataAtual = DateTime.Now.AddDays(5);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
-Console.WriteLine(presentation);
-Console.WriteLine("Valor da variável quantity: " + quantity);
-Console.WriteLine("Valor da variável size: " + size);
-Console.WriteLine("Valor da variável price: " + price);
-Console.WriteLine("Valor da variável trueOrFalse: " + trueOrFalse);
+// string presentation = "Oláaa, tudo beimmm?";
+// int quantity = 1;
+// double size = 1.60;
+// decimal price = 1.75M;
+// bool trueOrFalse = true;
+
+// Console.WriteLine(presentation);
+// Console.WriteLine("Valor da variável quantity: " + quantity);
+// Console.WriteLine("Valor da variável size: " + size.ToString("0.00"));
+// Console.WriteLine("Valor da variável price: " + price);
+// Console.WriteLine("Valor da variável trueOrFalse: " + trueOrFalse);
 
 // Person person1 = new Person();
 
