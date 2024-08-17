@@ -11,8 +11,22 @@ _POO funciona baseada em Classes._
 
 **Classe** sempre deve ser nomeada com letra maiúscula.  
 **Método** é uma "ação" que a Classe pode executar.  
+**;** no final de cada linha.  
 **namespace** é o caminho de referência para a Classe.
 **\n** quebra a linha.
+
+## Convenções
+
+### Cases
+
+**camelCase** para nomes de variáveis.  
+**PascalCase** para nomes de Classes, Propriedades, Métodos.
+
+### Nomes
+
+**Abreviações** não são recomendadas pois prejudicam o entendimento do código.  
+**Arquivos e Classes** o arquivo da Classe deve ser igual ao da Classe.  
+**Variáveis, Classes e Propriedades** não devem conter carctéres especiais, com excessão de "\_".
 
 [ENG]
 
@@ -27,5 +41,19 @@ _OOP is Class based._
 
 **Class** always need to be named with capital letter.  
 **Method** is a "action" that the Class can execute.  
+**;** at the end of each line.  
 **namespace** is the Class reference path.  
 **\n** line break.
+
+## Conventions
+
+### Cases
+
+**camelCase** for variables names.  
+**PascalCase** for Class names, Properties, Methods.
+
+### Names
+
+**Abbreviations** are not recommended.  
+**Arquivos e Classes** the file of the Class and the Class must be equal.  
+**Variables, Classes e Proprerties** must not contain special characters, with the exception of "\_".
