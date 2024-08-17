@@ -10,7 +10,8 @@ _POO funciona baseada em Classes._
 ## Sobre C#
 
 **Classe** sempre deve ser nomeada com letra maiúscula.  
-**Método** é uma "ação" que a Classe pode executar.
+**Método** é uma "ação" que a Classe pode executar.  
+**namespace** é o caminho de referência para a Classe.
 
 [ENG]
 
@@ -24,4 +25,5 @@ _OOP is Class based._
 ## About C#
 
 **Class** always need to be named with capital letter.  
-**Method** is a "action" that the Class can execute.
+**Method** is a "action" that the Class can execute.  
+**namespace** is the Class reference path.
