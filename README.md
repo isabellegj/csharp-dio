@@ -12,6 +12,7 @@ _POO funciona baseada em Classes._
 **Classe** sempre deve ser nomeada com letra maiúscula.  
 **Método** é uma "ação" que a Classe pode executar.  
 **namespace** é o caminho de referência para a Classe.
+**\n** quebra a linha.
 
 [ENG]
 
@@ -26,4 +27,5 @@ _OOP is Class based._
 
 **Class** always need to be named with capital letter.  
 **Method** is a "action" that the Class can execute.  
-**namespace** is the Class reference path.
+**namespace** is the Class reference path.  
+**\n** line break.
