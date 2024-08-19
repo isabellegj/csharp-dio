@@ -33,6 +33,18 @@ _POO funciona baseada em Classes._
 | short   | Tipo inteiro com sinal de 16 bits                      | -32,768 até 32,767                                       | 0            |
 | ulong   | Tipo inteiro sem sinal de 32 bits                      | 0 até 18,446,744,073,709,551,615                         | 0            |
 
+### Operadores Aritméticos
+
+| Operador | Nome          | Descrição                               | Exemplo |
+| -------- | ------------- | --------------------------------------- | ------- |
+| +        | Adição        | Soma dois ou mais valores               | x + y   |
+| -        | Subtração     | Subtrai valores                         | x - y   |
+| \*       | Multiplicação | Multiplica valores                      | x \* y  |
+| /        | Divisão       | Divide valores                          | x / y   |
+| %        | Módulo        | Retorna o resto da divisão              | x % y   |
+| ++       | Incremento    | Incrementa o valor de uma variável em 1 | x++     |
+| --       | Decremento    | Diminui o valor de uma variável em 1    | x--     |
+
 ## Convenções
 
 ### Cases
@@ -80,6 +92,18 @@ _OOP is Class based._
 | uint    | 32 bit unsigned integer type                 | 0 to 4,294,967,295                                          | 0            |
 | short   | 16 bit signed integer type                   | -32,768 to 32,767                                           | 0            |
 | ulong   | 64 bit unsigned integer type                 | 0 to 18,446,744,073,709,551,615                             | 0            |
+
+### Operadores Aritméticos
+
+| Operator | Name           | Description                            | Example |
+| -------- | -------------- | -------------------------------------- | ------- |
+| +        | Addition       | Add together two values                | x + y   |
+| -        | Subtraction    | Subtracts one value from another       | x - y   |
+| \*       | Multiplication | Multiplies two values                  | x \* y  |
+| /        | Division       | Divides one value by another           | x / y   |
+| %        | Modulus        | Return the division remainder          | x % y   |
+| ++       | Increment      | Increases the value of a variable by 1 | x++     |
+| --       | Decrement      | Decreases the value of a variable by 1 | x--     |
 
 ## Conventions
 
