@@ -1,5 +1,20 @@
 ﻿using ExemploFundamentos.Models;
 
+Calculadora calc = new Calculadora();
+
+calc.Somar(4, 8);
+
+
+
+
+
+
+
+
+
+
+
+
 // // Operadores Lógicos
 // bool maiorDeIdade = true;
 // bool possuiAutorizacao = false;
@@ -32,6 +47,12 @@
 // else {
 //     Console.Write("To indo");
 // }
+
+
+
+
+
+
 
 
 // Operadores Condicionais
@@ -72,6 +93,16 @@
 //     Console.WriteLine("Desculpe, não temos a quantidade em estoque.");
 // }
 
+
+
+
+
+
+
+
+
+
+
 // Cast - Casting
 // int a = Convert.ToInt32(null); // O Convert "trata" o null como 0, evita erros
 // int b = int.Parse("5");
@@ -85,6 +116,14 @@
 // string tal = "15-";
 // int tal2 = 0;
 // int.TryParse(tal, out tal2); // vai sair o valor de tal2, pois o parse não deu certo e ele manteve o valor original de tal2
+
+
+
+
+
+
+
+
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
