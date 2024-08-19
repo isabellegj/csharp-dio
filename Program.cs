@@ -1,8 +1,18 @@
 ﻿using ExemploFundamentos.Models;
 
 // Cast - Casting
-int a = Convert.ToInt32("5");
+int a = Convert.ToInt32(null); // O Convert "trata" o null como 0, evita erros
 int b = int.Parse("5");
+string c = 5.ToString();
+
+// Casting implícito
+int d = 5;
+double e = d;
+
+// Casting seguro
+string tal = "15-";
+int tal2 = 0;
+int.TryParse(tal, out tal2); // vai sair o valor de tal2, pois o parse não deu certo e ele manteve o valor original de tal2
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
