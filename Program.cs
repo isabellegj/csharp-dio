@@ -1,7 +1,11 @@
 ﻿using ExemploFundamentos.Models;
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+// Cast - Casting
+int a = Convert.ToInt32("5");
+int b = int.Parse("5");
+
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 // string presentation = "Oláaa, tudo beimmm?";
 // int quantity = 1;
