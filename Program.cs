@@ -1,23 +1,57 @@
 ﻿using ExemploFundamentos.Models;
 
+// // Operadores Lógicos
+// bool maiorDeIdade = true;
+// bool possuiAutorizacao = false;
+
+// // OR ou Pipe
+// if(maiorDeIdade || possuiAutorizacao) {
+//     Console.WriteLine("Não entra");
+// }
+// else {
+//     Console.WriteLine("Entrou");
+// }
+
+// // AND &&
+// bool presencaMinima = true;
+// double media = 7.5;
+
+// if(presencaMinima && media >= 7) {
+//     Console.WriteLine("Aprovado");
+// }
+// else {Console.WriteLine("Reprovado");}
+
+// // NOT !
+// bool choveu = true;
+// bool tarde = true;
+
+// if(!choveu && !tarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else {
+//     Console.Write("To indo");
+// }
+
+
 // Operadores Condicionais
-Console.WriteLine("Digite uma letra: ");
-string letra = Console.ReadLine();
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine();
 
-switch(letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    Console.WriteLine("Vogal");
-    break;
+// switch(letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
 
-    default:
-    Console.WriteLine("Consoante");
-    break;
-}
+//     default:
+//         Console.WriteLine("Consoante");
+//         break;
+// }
 
 // int quantidadeEmEstoque = 10;
 // int quantidadeCompra = 4;
