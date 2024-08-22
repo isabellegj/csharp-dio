@@ -1,40 +1,62 @@
-﻿using ExemploFundamentos.Models;
+﻿using ExemploFundamentos.Common.Models;
 
-string opcao;
-bool exibirMenu = true;
+Person person1 = new Person();
 
-while(exibirMenu)
-{
-    Console.Clear();
-    Console.WriteLine("Digite a sua opção");
-    Console.WriteLine("1 - Cadastrar cliente");
-    Console.WriteLine("2 - Buscar cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar");
+person1.Name = "Izzy";
+person1.Age = 27;
+person1.Presentation();
 
-    opcao = Console.ReadLine();
 
-    switch(opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastro de Cliente");
-            break;
-         case "2":
-            Console.WriteLine("Busca de Cliente");
-            break;
-         case "3":
-            Console.WriteLine("Apagar Cliente");
-            break;
-         case "4":
-            Console.WriteLine("Encerrar");
-            // Environment.Exit() para sair AQUI, não executa mais nada abaixo
-            exibirMenu = false;
-            break;
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string opcao;
+// bool exibirMenu = true;
+
+// while(exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");
+
+//     opcao = Console.ReadLine();
+
+//     switch(opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de Cliente");
+//             break;
+//          case "2":
+//             Console.WriteLine("Busca de Cliente");
+//             break;
+//          case "3":
+//             Console.WriteLine("Apagar Cliente");
+//             break;
+//          case "4":
+//             Console.WriteLine("Encerrar");
+//             // Environment.Exit() para sair AQUI, não executa mais nada abaixo
+//             exibirMenu = false;
+//             break;
+//         default:
+//             Console.WriteLine("Opção inválida");
+//             break;
+//     }
+// }
 
 
 
