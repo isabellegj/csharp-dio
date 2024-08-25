@@ -1,12 +1,32 @@
-﻿using ExemploFundamentos.Common.Models;
+﻿using System.ComponentModel;
+using ExemploFundamentos.Common.Models;
 
-Person person1 = new Person();
+int[] arrayInteiros = new int[4];
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
 
-person1.Name = "Izzy";
-person1.Age = 27;
-person1.Presentation();
+// Copiando um array
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
+// Redimensionando array
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
+Console.WriteLine("Percorrendo o array com FOR");
+for(int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+}
+
+int contadorForEach = 0;
+Console.WriteLine("Percorrendo o array com FOREACH");
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição N° {contadorForEach} - {valor}");
+    contadorForEach++;
+}
 
 
 
